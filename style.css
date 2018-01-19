@@ -1,0 +1,45 @@
+h2.listheading {
+    font-style: italic;
+  }
+  
+em.standout {
+    font: bold;
+    text-transform: uppercase;
+}
+
+#working {
+    color: #FF0000;
+}
+
+#key {
+    color: #1C8E03;
+}
+dd, dt {
+    line-height: 2;
+    text-align: center;
+}  
+
+a.link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+aside{
+    color: #fefefe;
+    background-color: #162EDA;
+    letter-spacing: .3em;
+    word-spacing: .6em;
+    font-family: georgia, times, serif;
+}
+
+span#dropcap{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    text-shadow: 1px 1px
+}
+  
+  
