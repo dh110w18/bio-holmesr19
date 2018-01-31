@@ -43,10 +43,10 @@
         <li>Allow me to develop a useful skill</li>
     </ol>
     </section>
-    <section>
-        <aside>
+    <aside>
             <blockquote cite="Dr. Michael Laughy"><span id="dropcap">"T</span>he future isn't so bad"<cite> - Dr. Michael Laughy</cite></blockquote>
-        </aside>
+    </aside>
+    <section>
     <dl>
         <dt><a href="https://reddit.com/r/learnprogramming" target="_blank" class="link">Learn Programming Subreddit</a></dt>
         <dd>A great resource for advice about learning to program</dd>
@@ -59,19 +59,102 @@
     <section>
         <h2>Images</h2>
         <figure id="one">
-            <img src="bio-holmesr19/Images/IMG_5566.jpg" alt="the outside">
+            <img src="Images/IMG_5566.jpg" alt="the outside">
             <figcaption>The Outside with some other stuff</figcaption>
         </figure>
         <figure id="two">
-            <img src="bio-holmesr19/Images/IMG_5802.jpg" alt="the outside">
+            <img src="Images/IMG_5802.jpg" alt="the outside">
             <figcaption>The Outside without other stuff</figcaption>
         </figure>
         <figure id="three">
-            <img src="bio-holmesr19/Images/IMG_5851.jpg" alt="the outside">
+            <img src="Images/IMG_5851.jpg" alt="the outside">
             <figcaption>The Outside for a third time</figcaption>
         </figure>
     </section>
-    <footer class="info"> &copy 2017, Robert E. B. Holmes</footer>
+    <section>
+        <h2>Important Coursework</h2>
+        <table>
+            <thead>
+            <tr>
+              <th scope="row">Course Number</th>
+              <th scope="row">Course Name</th>
+              <th scope="row">When Taken</th>
+              <th scope="row">Why Important</th>
+            </tr>
+            </thead>
+            <tr>
+              <th scope="col">DH 110</th>
+              <td>Web Programming</td>
+              <td>W18</td>
+              <td>Web applications are highly profitable and being able to design the web page in addition to programming the app is a valuable skill.
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">CS 317</th>
+              <td>Database Management</td>
+              <td>W18</td>
+              <td>Databases are the beating heart of a web service and I want to be able to use them competently</td>
+            </tr>
+            <tr>
+              <th scope="col">CS 312</th>
+              <td>Programming Language Design</td>
+              <td>W19</td>
+              <td>Having studied two natural languages (Latin and Greek), I think it will be interesting to see how a highly logical programming language
+                  is similar and different to a natural one.
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">LATN 321</th>
+              <td>Ovid and Catullus</td>
+              <td>W17</td>
+              <td>This second advanced Latin class was the end of a 7 year latin journey but it opened my eyes to how concepts of Latin
+                  still persist in today's language.
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">MATH 121</th>
+              <td>Discrete Math</td>
+              <td>F17</td>
+              <td>Discrete math showed me the mathematical basis for many concepts in computer science.</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h2>Contact Me</h2>
+        <form action="http://www.jasontmickel.com/dh110/mailform/mail.php"
+            method="post">
+            <div class="form">
+                <label for="contact">Name: </label>  
+                <input type="text" name="contact" id="contact"
+                    size="15" maxlength="30">
+            </div>
+            <div class="form">
+                <label for="email">Your Email: </label>  
+                <input type="text" name="email" id="email"
+                    size="15" maxlength="30">
+            </div>
+            <div class="form">
+              <label for="purpose">Nature of the message:</label>
+              <select name="purpose">
+                <option value="question" selected>Question</option>
+                <option value="comment">Comment</option>
+                <option value="request">Request</option>
+                <option value="followup">Follow-up</option>
+              </select>
+            </div>
+            <div class="form">
+              <label for="message">Your Message:</label>
+        
+              <textarea name="message" id="message" cols="50" rows="15"
+                placeholder="Please limit your message to approximately 1,000 characters"></textarea>
+            </div>
+            <div class="form">
+                <input type="hidden" name="email_to" value="holmesr19@mail.wlu.edu" >
+                <button name="submit" id="submit">submit</button>
+            </div>
+        </form>
+    </section>
+    <footer class="info"> &copy; 2017, Robert E. B. Holmes</footer>
 </body>
 </html>
 

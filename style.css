@@ -5,6 +5,10 @@ header {
     z-index: 1;
 }
 
+body{
+    margin: 0px;
+}
+
 .info{
     background-color:#280344;
     text-align: center;
@@ -103,6 +107,39 @@ figcaption{
     margin-top: 15px;
     font-style: italic;
     font-size: 8pt;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: #07094E;
+    color: #ffffff;
+}
+
+th, td {
+    border-bottom: 2px solid #ddd;
+    padding: 20px;
+}
+
+label{
+    width: 200px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+div.form{
+    padding-bottom: 15px;
+}
+
+form{
+    width: 400px;
+    margin: 10px auto 10px auto
+}
+
+#submit{
+    float: right;
 }
 
 span#dropcap{
