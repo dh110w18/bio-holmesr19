@@ -84,24 +84,23 @@ blockquote{
 figure {
     margin: 0px;
     display: inline-block;
-    width: 30%
 }
 
 figure#one{
     /*display: inline-block;*/
     float: left;
-    width: 100%;
+    width: 30%;
 }
 
 figure#two{
     /*display: inline-block;*/
-    width: 100%;
+    width: 30%;
 }
 
 figure#three{
     /*display: inline-block;*/
     float: right;
-    width: 100%;
+    width: 30%;
 }
 
 figcaption{
