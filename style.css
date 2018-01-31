@@ -89,21 +89,18 @@ figure {
 figure#one{
     /*display: inline-block;*/
     float: left;
-    width: 10px;
-    height: 10px;
+    width: 30%;
 }
 
 figure#two{
     /*display: inline-block;*/
-    width: 10px;
-    height: 10px;
+    width: 30%;
 }
 
 figure#three{
     /*display: inline-block;*/
     float: right;
-    width: 10px;
-    height: 10px;
+    width: 30%;
 }
 
 figcaption{
